@@ -2,7 +2,7 @@ package com.QrIzZ.bookOfRecipes.byUser;
 import java.util.Scanner;
 
 public class AuthorizationUser {
-    public static void main(String[] args) {
+    public static void main() {
 
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.print(" Enter user name => ");

@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class RegistrationUser {
     static Register register = new Register();
 
-    public static void main(String[] args) {
+    public static void main() {
 
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.print(" Enter firstName => ");
